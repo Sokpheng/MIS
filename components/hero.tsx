@@ -31,14 +31,14 @@ export function Hero() {
 
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <div className="mb-8">
-          <div className="w-40 h-40 mx-auto mb-6 rounded-full overflow-hidden shadow-2xl animate-glow relative border-4 border-red-800/30">
+          <div className="w-50 h-50 mx-auto mb-6 rounded-full overflow-hidden shadow-2xl animate-glow relative border-4 border-red-800/30">
             <img src="/images/profile.png" alt="Sokpheng Phon Profile" className="w-full h-full object-cover" />
             <div className="absolute inset-0 rounded-full bg-gradient-to-br from-red-800/20 via-transparent to-red-900/20"></div>
           </div>
           <h1 className="text-5xl sm:text-7xl font-bold mb-4 bg-gradient-to-r from-red-800 via-gray-700 to-red-900 bg-clip-text text-transparent animate-shimmer bg-[length:200%_100%]">
             Sokpheng Phon
           </h1>
-          <p className="text-2xl sm:text-3xl text-red-800 mb-6 font-semibold">Full Stack Developer & UI/UX Designer</p>
+          <p className="text-2xl sm:text-3xl text-red-800 mb-6 font-semibold">Computer Science Of Paragon University</p>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-8 leading-relaxed">
             Passionate about creating mystical digital experiences that blend technology with artistry. I bring ideas to
             life through code and design, weaving magic into every project ✨
