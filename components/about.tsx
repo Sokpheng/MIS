@@ -61,8 +61,10 @@ export function About() {
             <Star className="h-6 w-6 text-red-700 animate-pulse" />
           </div>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-            I'm a passionate full-stack developer with over 5 years of experience in creating digital solutions that
-            make a difference. I love turning complex problems into simple, beautiful, and intuitive solutions.
+            I'm a passionate full-stack developer with 2 years of hands-on experience building practical 
+            and user-focused digital solutions. I enjoy breaking down complex problems and turning them into clean, 
+            intuitive applications. Always eager to learn and grow, I'm currently looking for remote opportunities 
+            to apply my skills, gain real-world experience, and contribute to meaningful projects.
           </p>
         </div>
 
