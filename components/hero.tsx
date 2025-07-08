@@ -31,7 +31,7 @@ export function Hero() {
 
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <div className="mb-8">
-          <div className="w-50 h-50 mx-auto mb-6 rounded-full overflow-hidden shadow-2xl animate-glow relative border-4 border-red-800/30">
+          <div className="w-42 h-42 mx-auto mb-6 rounded-full overflow-hidden shadow-2xl animate-glow relative border-4 border-red-800/30">
             <img src="/images/profile.png" alt="Sokpheng Phon Profile" className="w-full h-full object-cover" />
             <div className="absolute inset-0 rounded-full bg-gradient-to-br from-red-800/20 via-transparent to-red-900/20"></div>
           </div>
