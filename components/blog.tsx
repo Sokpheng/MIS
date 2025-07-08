@@ -138,7 +138,7 @@ export function Blog() {
                   {post.tags.map((tag, tagIndex) => (
                     <Badge
                       key={tag}
-                      variant="secondary"
+                      variant="outline"
                       className={`text-xs bg-gradient-to-r ${
                         tagIndex % 4 === 0
                           ? "from-red-700/20 to-red-800/20 border-red-600/50 text-red-700"
@@ -147,7 +147,7 @@ export function Blog() {
                             : tagIndex % 4 === 2
                               ? "from-red-800/20 to-red-900/20 border-red-700/50 text-red-800"
                               : "from-red-500/20 to-red-600/20 border-red-400/50 text-red-500"
-                      } border hover:scale-105 transition-transform duration-200`}
+                      } hover:scale-105 transition-transform duration-200`}
                     >
                       {tag}
                     </Badge>
@@ -166,8 +166,6 @@ export function Blog() {
             </Card>
           ))}
         </div>
-
-        
       </div>
     </section>
   )

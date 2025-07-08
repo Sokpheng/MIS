@@ -165,12 +165,12 @@ export function BlogPost({ post }: BlogPostProps) {
 
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">{post.excerpt}</p>
 
-            <div className="flex flex-wrap gap-3 mb-6">
+            <div className="flex flex-wrap gap-2 mb-6">
               {post.tags.map((tag, index) => (
                 <Badge
                   key={tag}
-                  variant="secondary"
-                  className={`text-sm px-3 py-1 bg-gradient-to-r ${
+                  variant="outline"
+                  className={`text-xs bg-gradient-to-r ${
                     index % 4 === 0
                       ? "from-red-700/20 to-red-800/20 border-red-600/50 text-red-700"
                       : index % 4 === 1
@@ -178,7 +178,7 @@ export function BlogPost({ post }: BlogPostProps) {
                         : index % 4 === 2
                           ? "from-red-800/20 to-red-900/20 border-red-700/50 text-red-800"
                           : "from-red-500/20 to-red-600/20 border-red-400/50 text-red-500"
-                  } border hover:scale-105 transition-transform duration-200`}
+                  } hover:scale-105 transition-transform duration-200`}
                 >
                   {tag}
                 </Badge>
